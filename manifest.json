@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Top Scroll",
+  "description": "Back to Top on Youtube page",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://*.youtube.com/"
+      ]
+    }
+  ]
+}
